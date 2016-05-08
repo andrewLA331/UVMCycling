@@ -1,0 +1,815 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: "Didact Gothic", sans-serif;
+    overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*End CSS reset*/
+
+
+/*Header and Footer Styling*/
+header {
+    height: 50px;
+    width: 100%;
+    display: block;
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 25px;
+    background-color: #1f211f;
+    -ms-transform: skewX(45deg); /* IE 9 */
+    -webkit-transform: skewX(45deg); /* Safari */
+    transform: skewX(45deg); /* Standard syntax */
+    border-left: 1px solid #eaea18;
+    border-bottom: 1px solid #eaea18;
+}
+
+header nav ol li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header nav ol li a {
+    text-decoration: none;
+    color: #eaea18;
+    font-family: 'metal_lordregular';
+}
+
+header img {
+    height: 18px;
+    display: inline;
+    vertical-align: text-top;
+    /* margin-right: 150px; */
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+}
+
+.nav-wrap {
+    padding-top: 16px;
+    padding-left: 40px;
+    -ms-transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    transform: skewX(-45deg);
+}
+
+footer {
+    background: #1f211f;
+    height: 75px;
+    position: fixed;
+    z-index: 101;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid #eaea18;
+}
+
+footer ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    float: none;
+}
+
+footer ul li img {width: 100px;vertical-align: middle;}
+
+.foot-wrap {
+    padding-top: 15px;
+    text-align: center;
+}
+
+footer ul li:nth-of-type(5) img {
+    width: 30px!important;
+    height: 30px!important;
+}
+
+footer ul li:nth-of-type(6) img {
+    height: 40px;
+}
+
+/*End header and footer */
+
+/*UVM Home Styling*/
+#uvmHome .main-content {
+    height: 100vh;
+    background-image: url("../images/libbyCross1024.png");
+    background-size: cover;
+    background-position-y: -125px;
+    background-repeat: no-repeat;
+    margin-bottom: -285px;
+}
+
+.title-wrap {font-family: "metal_lordregular";color: #eaea18;text-shadow: -1px -1px 0 #000,        1px -1px 0 #000,      -1px 1px 0 #000,       1px 1px 0 #000;position: relative;top: 20%;margin-left: 60px;}
+
+.title-wrap h1 {
+    font-size: 80px;
+    color: #1f211f;
+    text-shadow: -1px -1px 0 #eaea18, 1px -1px 0 #eaea18, -1px 1px 0 #eaea18, 1px 1px 0 #eaea18;
+}
+
+div#tag-wrap p {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+div#tag-wrap {
+    margin-top: 30px;
+}
+
+.skewbox {
+    height: 120px;
+    width: 100vw;
+    background: #FFFEE0;
+    margin-top: -90px;
+}
+
+/*Description Section*/
+div#description-wrap {
+    height: 100vh;
+}
+
+div#description-wrap .h1-wrap {
+    text-align: right;
+    position: relative;
+    z-index: 4;
+    top: -40px;
+}
+
+div#description {
+    width: 50%;
+    float: right;
+    height: 200px;
+    background-color: green;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 133px;
+    padding-bottom: 30px;
+    margin-top: 10%;
+    margin-right: -100px;
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+}
+
+#description h2 {font-family: "metal_lordregular";-ms-transform: skewX(-30deg);-webkit-transform: skewX(-30deg);transform: skewX(-30deg);font-size: 28px;margin-bottom: 30px;color:#eaea18;}
+
+#description p {
+    -ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color:#FFFEE0;
+}
+
+#description p:last-child {
+    margin-left: -27px;
+}
+
+span#descrip-front {
+    display: inline-block;
+    height: 10px;
+    width: 30%;
+    background-color: #000;
+    vertical-align: middle;
+}
+
+span#descript-after {
+    display: inline-block;
+    height: 10px;
+    width: 20px;
+    background-color: #000;
+    vertical-align: middle;
+}
+
+div#d-back {
+    background-image: url('../images/mtbTeamm.jpg');
+    background-size: cover;
+    height: 85vh;
+    position:relative;
+    z-index: 2;
+    background-position-y: -175px;
+    background-repeat: no-repeat;
+}
+
+div#d-wrap {
+    margin-top: -75px;
+    background-color: #FFFEE0;
+    padding-top: 30px;
+    padding-bottom: 140px;
+}
+
+/*End Description Section*/
+
+div#sb1 {
+    
+    -ms-transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+    
+}
+
+div#sb2 {
+    
+    -ms-transform: skewY(1deg);
+    -webkit-transform: skewY(1deg);
+    transform: skewY(1deg);
+    margin-top:-200px;
+    
+}
+/*Start Seasons Section*/
+div#seasons-wrap {
+    width: 100vw;
+    background-color: #FFFEE0;
+    padding-top: 100px;
+    padding-bottom:100px;
+    position: relative;
+    z-index: 11;
+    margin-top: 150px;
+
+}
+
+div#seasons-wrap #seasons-front {
+    height: 10px;
+    width: 40px;
+    background-color: #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#seasons-wrap #seasons-after {
+    height: 10px;
+    width: 30%;
+    background-color: #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#mtn-wrap {
+    height: 340px;
+    background-image: url("../images/mtbDH1024.png");
+    background-size: cover;
+    background-position-x: 220px;
+    border-top: 2px solid #1f211f;
+}
+
+div#mtn {
+    width: 50%;
+    height: 340px;
+    background-color: green;
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+    padding-left: 220px;
+    margin-left: -150px;
+    border-right: 5px solid #FFFEE0;
+}
+
+.anti-skew {
+    -ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    height: 50%;
+    padding-top: 15%;
+}
+
+.anti-skew h1 {font-family: "metal_lordregular";margin-bottom: 20px;font-size: 24px;color: #eaea18;}
+
+.anti-skew p {
+    max-width: 75%;
+    color: #FFFEE0;
+}
+
+div#cross {
+    width: 50%;
+    height: 340px;
+    background-color: green;
+    -ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    padding-left: 170px;
+    margin-left: -100px;
+    border-right: 5px solid #FFFEE0;
+}
+
+div#road {
+    width: 50%;
+    height: 340px;
+    background-color: green;
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+    padding-left: 220px;
+    margin-left: -150px;
+    border-right: 5px solid #FFFEE0;
+}
+
+div#cross-wrap {
+    height: 340px;
+    background-image: url("../images/peteCross1024.png");
+    background-size: cover;
+    background-position-x: 220px;
+    border-top: 2px solid #1f211f;
+}
+
+div#road-wrap {
+    height: 340px;
+    background-image: url("../images/samRoad984.png");
+    background-size: cover;
+    background-position-x: 250px;
+    border-top: 2px solid #1f211f;
+    border-bottom: 2px solid #1f211f;
+}
+
+#cross .anti-skew {
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+}
+
+div#seasons-wrap .h1-wrap {
+    position: relative;
+}
+
+/*End Seasons Section*/
+
+/*Start Calendar Section*/
+div#calendar-wrap {
+    width: 100vw;
+    padding-bottom:30px;
+    position: relative;
+    z-index: 12;
+    background-color: #FFFEE0;
+}
+
+div#calendar-wrap .h1-wrap {
+    text-align: right;
+    padding-top: 0px;
+    position: relative;
+    z-index: 14;
+}
+
+
+span#cal-front {
+    height: 10px;
+    width: 30%;
+    display: inline-block;
+    background: #000;
+    vertical-align: middle;
+}
+
+span#cal-after {
+    height: 10px;
+    width: 40px;
+    display: inline-block;
+    background: #000;
+    vertical-align: middle;
+}
+
+div#sb3 {
+    -ms-transform: skewY(-2deg);
+    -webkit-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+    margin-bottom: -25px;
+}
+
+div#cal-w {
+    height: 180vh;
+    width: 100%;
+    background-image: url("../images/libbyRoad1024.png");
+    background-size: cover;
+    overflow:auto;
+}
+
+div#cal-w-w {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(30, 162, 242, .5);
+        padding-top: 50px;
+}
+
+div#calendar {
+    height: 90%;
+    width: 90%;
+    display: block;
+    padding: 5%;
+    font-family: "metal_lordregular";
+}
+
+.fc-left h2 {font-family: "metal_lordregular";}
+
+.fc-unthemed td {
+    border: 2px solid #1f211f;
+    color: #0A800A;
+    background: #D2CBCB;
+}
+
+td.fc-day.fc-widget-content.fc-wed.fc-today.fc-state-highlight {
+    background: #0A800A;
+    color: #eaea18;
+}
+
+span.fc-time {
+    background: #D2CBCB;
+    border: none;
+}
+
+.fc-content {
+    white-space: inherit!important;
+    overflow: visible;
+    border: 0px!important;
+    background-color: #D2CBCB;
+    color: #0A800A;
+}
+
+.fc th {
+    border: 2px solid #1f211f;
+    padding: 5px;
+}
+
+a.fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end {
+    border: none;
+    background: #D2CBCB;
+}
+
+td.fc-event-container {
+    border: none!important;
+    padding: 5px;
+}
+
+td.fc-day-number.fc-wed.fc-today.fc-state-highlight {
+    color: #eaea18;
+}
+
+.fc-left h2 {
+    font-size: 24px;
+    color: #108410;
+}
+
+/*End Calendar Section*/
+
+div#social-wrap {
+    width: 100vw;
+    height: 282px;
+    padding-bottom: 175px;
+    position: relative;
+    z-index: 15;
+    background-color: #FFFEE0;
+}
+
+div#sub-footer {
+    width: 100vw;
+    height: 50vh;
+    color: #eaea18;
+    font-family: "metal_lordregular";
+    background-color: #1f211f;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+.h1-wrap {
+    
+    font-family: "metal_lordregular";
+    font-size: 60px;
+    margin-bottom: 30px;
+    background-color: #FFFEE0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -45px;}
+
+.h1-wrap h1 {
+    display: inline-block;
+    color: green;
+}
+
+span#social-front {
+    height: 10px;
+    width: 40px;
+    display: inline-block;
+    background: #000;
+    vertical-align: middle;
+
+}
+
+span#social-after {
+    height: 10px;
+    width: 30%;
+    display: inline-block;
+    background: #000;
+    vertical-align: middle;
+
+}
+
+div#social-wrap img {
+    width: 125px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div#social {
+    text-align: center;
+}
+
+/*Start Sub-footer*/
+div#sub-footer .h1-wrap {
+    background-color: #1f211f;
+    text-align:right;
+}
+
+div#sub-footer .h1-wrap h1 {
+    color: #eaea18;
+    
+}
+
+span#sub-front {
+    height: 10px;
+    width: 30%;
+    display: inline-block;
+    background: #000;
+    vertical-align: middle;
+    background-color:#eaea18;
+}
+
+span#sub-after {
+    height: 10px;
+    width: 40px;
+    display: inline-block;
+    background: #000;
+    vertical-align: middle;
+    background-color:#eaea18;
+}
+
+div#sub-footer ol li {max-width: 125px;margin-left: 10px;margin-right: 10px;display: inline-block;vertical-align: top;}
+
+div#sub-footer a {
+    color: #eaea18;
+    text-decoration: underline;
+}
+
+div#sub-footer ol li ul {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+div#sub-footer ol li ul li {
+    display: block;
+}
+
+#sub-footer ol {
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+/*end UVM Home Styling*/
+
+/*Start About Page Styling*/
+
+body#uvmAbout {
+    background-color: #FFFEE0;
+}
+
+.parallax {
+  background-image: url("../images/colinNats.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: relative;
+  padding-top:30px;
+ }
+
+.parallax-inner {
+    position: relative;
+}
+
+.slide {
+    position: relative;
+    z-index: 10;
+}
+
+
+div#team-wrap {
+    width: 50%;
+    padding: 20px;
+    padding-right: 50px;
+    margin: 50px -68px 50px 20px;
+    margin-left: auto;
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+    background: #FFFEE0;
+    border: 5px solid #1f211f;
+    border-left: 6px solid #1f211f;
+}
+
+div#alumni-wrap {
+    width: 50%;
+    padding: 20px;
+    padding-left: 50px;
+    margin: 50px 20px 50px -68px;
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+    background: #FFFEE0;
+    border: 5px solid #1f211f;
+    border-right: 6px solid #1f211f;
+}
+
+div#contact-wrap {
+    width: 50%;
+    padding: 20px;
+    margin: 50px 20px 50px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+    background-color: #FFFEE0;
+    border: 5px solid #1f211f;
+    border-right: 6px solid #1f211f;
+    border-left: 6px solid #1f211f;
+}
+
+#uvmAbout .main-content {
+    padding-top: 100px;
+}
+
+div#team {
+    -ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    padding: 30px 50px 30px 50px;
+}
+
+div#alumni {
+    -ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    padding: 30px 50px 30px 50px;
+}
+
+div#contact-form {
+    -ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+}
+
+
+div#contact {
+    text-align: left;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body#uvmAbout h2 {
+    font-size: 24px;
+    font-family: "metal_lordregular";
+}
+
+.buffer {
+    height: 19vh;
+    width: 100vw;
+    margin-top: 200px;
+    background-color: #FFFEE0;
+    border-top: 5px solid #1f211f;
+}
+
+span#a-front {
+    height: 10px;
+    width: 50px;
+    background-color: #1f211f;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span#a-after {
+    height: 10px;
+    width: 30%;
+    background-color: #1f211f;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body#uvmAbout #sub-footer {
+    margin-bottom: -50px;
+}
+/*End About Page Styling*/
+
+/*Start Sponsors Page*/
+div#sponsors img {
+    display: inline-block;
+    width: 130px;
+    image-rendering: pixelated;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+
+div#sponsors ul li h2 {font-family: "metal_lordregular";font-size: 24px;margin-bottom: 10px;}
+
+.sponsor-d {
+    display: inline-block;
+    max-width: 60%;
+}
+
+div#sponsors {
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+div#sponsors ul li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom:20px;
+}
+
+/*End Sponsors Page Styling*/
+
+/*Start reports page styling*/
+
+body#uvmReports .buffer {
+    display: none;
+}
+
+body#uvmReports .rep h2 {font-family: "metal_lordregular";margin-bottom: 10px;font-size: 18px;}
+
+body#uvmReports .rep {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/*End reports page styling*/

@@ -1,0 +1,197 @@
+#description-wrap .h1-wrap {
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-top: 30px;
+}
+
+span#descrip-front {
+    height: 10px;
+    width: 70%;
+    display: inline-block;
+    background: #000;
+    vertical-align: middle;
+    border: 1px solid #eaea18;
+    border-left: 0px;
+    margin-left: -15px;
+}
+
+div#d-wrap {
+    clear: both;
+    height: 600px;
+    background-image: url("../images/mtbTeamm.jpg");
+    background-position-y: -150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+span#descript-after {
+    height: 10px;
+    width: 40px;
+    display: inline-block;
+    background: #000;
+    vertical-align: middle;
+    border: 1px solid #eaea18;
+    border-right: 0px;
+}
+
+div#description-wrap {
+    
+    padding-bottom: 75px;
+    background-size: 100%;
+    background-position-y: 115px;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-color: #fff;
+    margin-top: -30px;
+}
+
+div#description {
+    width: 50%;
+    float: right;
+    height: 200px;
+    background-color: #278C2A;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 133px;
+    padding-bottom: 30px;
+    margin-top: 10%;
+    margin-right: -100px;
+    -ms-transform: skewX(30deg);
+    -webkit-transform: skewX(30deg);
+    transform: skewX(30deg);
+}
+
+#description h2 {font-family: "metal_lordregular";-ms-transform: skewX(-30deg);-webkit-transform: skewX(-30deg);transform: skewX(-30deg);font-size: 28px;margin-bottom: 30px;}
+
+#description p {
+    -ms-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#description p:last-child {
+    margin-left: -27px;
+}
+
+span#seasons-front {
+    height: 10px;
+    width: 20px;
+    display: inline-block;
+    background: #000;
+    vertical-align: middle;
+    margin-right: -10px;
+}
+
+span#seasons-after {
+    height: 10px;
+    width: 74%;
+    display: inline-block;
+    background: #000;
+    vertical-align: middle;
+    margin-right: -10px;
+}
+
+
+div#seasons {
+    border-top: 2px solid #383a35;
+    border-bottom: 2px solid #383a35;
+}
+
+div#mtn-wrap {
+    height: 340px;
+    width: 100%;
+    display: inline-block;
+    background-image: url("../images/mtbDH1024.png");
+    background-size: cover;
+    border-right: 2px solid #383a35;
+    margin-right:-4px;
+}
+
+div#mtn {
+    height: 100%;
+    width: 100%;
+   /* background-color: rgba(65, 229, 65, .5); */
+    font-family: "metal_lordregular";
+    color: #eaea18;
+}
+
+#mtn h1 {
+    font-size: 34px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+div#cross-wrap {
+    height: 340px;
+    width: 100%;
+    display: inline-block;
+    background-image: url("../images/peteCross1024.png");
+    background-size: cover;
+    border-left: 2px solid #383a35;
+    margin-left:-4px;
+}
+
+div#cross {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(65, 229, 65, .5); */
+    font-family: "metal_lordregular";
+    color: #eaea18;
+}
+
+#cross h1 {
+    font-size: 34px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+div#road-wrap {
+    width: 100%;
+    height: 340px;
+    background-image: url("../images/samRoad984.png");
+    border-top:2px solid #383a35;
+    background-size: cover;
+}
+
+div#road {
+    height: 100%;
+   /* background-color: rgba(65, 229, 65, .5); */
+    width: 100%;
+}
+
+div#mtn:hover {
+    background-color: transparent;
+    color: #eaea18;
+}
+
+div#cross:hover {
+    background-color: transparent;
+    color: #eaea18;
+}
+
+div#road:hover {
+    background-color: transparent;
+}
+
+div#road h1 {
+    font-family: "metal_lordregular";
+    font-size: 34px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.h1-wrap h1 {
+    display: inline-block;
+}
+
+div#road h1 {
+    font-family: "metal_lordregular";
+    font-size: 34px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
