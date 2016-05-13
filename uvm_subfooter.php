@@ -27,14 +27,14 @@
                     <li>Race Calendar</li>
                 </ul>
             </li>
-            <li><a href="media.php">Media</a>
+        <!--    <li><a href="media.php">Media</a>
                 <ul>
                     <li>Facebook</li>
                     <li>Instagram</li>
                     <li>Twitter</li>
                     <li>Spotify</li>
                 </ul>
-            </li>
+            </li> -->
             <li><a href="roster.php">Roster</a></li>
             <li><a href="reports.php">Race Reports</a>
                 <ul>

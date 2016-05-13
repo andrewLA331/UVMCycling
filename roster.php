@@ -1,20 +1,7 @@
 <!doctype html>
 <!-- Head Section -->
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>UVM Cycling Roster</title>
-  <meta name="description" content="University of Vermont Cycling Team Offial Site">
-  <meta name="author" content="UVM Cycling">
-
-  <link rel="stylesheet" href="style/uvm_style.css">
-  <link rel="stylesheet" href="Webfonts/metallord_regular_macroman/stylesheet.css">
-
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
+<?php include('head.php')?>
 <!-- End Head Section -->
 
 <!-- Start Body Section -->
@@ -26,11 +13,61 @@
 <!-- End Header/Nav Section -->
 <!-- Start Main Content Section -->
 <div class="main-content">
-    <div class="reports-wrap">
+    <div class="h1-wrap">
+        <span class="h1" id="cal-front"></span>
         <h1>Roster</h1>
-        <div id="tag-wrap">
-            
-            
+        <span class="h1" id="cal-after"></span>
+        <span class="h1" id="skew"></span>
+    </div>
+    <div class="roster-wrap">
+        
+        <div class="roster" id="r1">
+        <img src="images/cory.png">
+        <h4>Cory Small</h4>
+        <ul>
+            <li><p>Age:21 </p></li>
+            <li><p>Hometown: Boxboro, MA</p></li>
+            <li><p>Favorite Team Sister: Teets'</p></li> 
+            <li><p>Favorite Flavor of Chamois Creme: Deez Nutz</p></li> 
+        </ul>
+        
+        </div>
+    
+    
+        <div class="roster" id="r2">
+        <img src="images/cory.png">
+        <h4>Cory Small</h4>
+        <ul>
+            <li><p>Age:21 </p></li>
+            <li><p>Hometown: Boxboro, MA</p></li>
+            <li><p>Favorite Team Sister: Teets'</p></li> 
+            <li><p>Favorite Flavor of Chamois Creme: Deez Nutz</p></li> 
+        </ul>
+        
+        </div>
+    
+    
+        <div class="roster" id="r3">
+        <img src="images/cory.png">
+        <h4>Cory Small</h4>
+        <ul>
+            <li><p>Age:21 </p></li>
+            <li><p>Hometown: Boxboro, MA</p></li>
+            <li><p>Favorite Team Sister: Teets'</p></li> 
+            <li><p>Favorite Flavor of Chamois Creme: Deez Nutz</p></li> 
+        </ul>
+        
+        </div>
+        <div class="roster" id="r4">
+        <img src="images/cory.png">
+        <h4>Cory Small</h4>
+        <ul>
+            <li><p>Age:21 </p></li>
+            <li><p>Hometown: Boxboro, MA</p></li>
+            <li><p>Favorite Team Sister: Teets'</p></li> 
+            <li><p>Favorite Flavor of Chamois Creme: Deez Nutz</p></li> 
+        </ul>
+        
         </div>
     </div>
 </div>   

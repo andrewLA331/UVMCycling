@@ -42,13 +42,13 @@
 <div id="contact-form">
 <div id="contact">
 <h2>Contact Us</h2>
-    <h3>Name:</h3><input type="text" name="name" value="<?php echo $name;?>">
-    
-    <h3>Number:</h3><input type="text" name="number" value="<?php echo $number;?>">
-    
-    <h3>Email:</h3><input type="text" name="email" value="<?php echo $email;?>">
-    
-    <h3>Comment:</h3><textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+    <fieldset>
+    Name: <input type="text" name="name" value="<?php echo $name;?>"><br>
+    Number: <input type="text" name="number" value="<?php echo $number;?>"><br>
+    Email <input type="text" name="name" value="<?php echo $email;?>"><br>
+    Comment:<br><textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+  </fieldset>
+
 </div>
 </div>
 </div>  

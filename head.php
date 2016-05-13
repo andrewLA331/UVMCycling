@@ -14,6 +14,8 @@
   <script type='text/javascript' src='calendar/fullcalendar-2.7.0/gcal.js'></script>
   <script src='calCustom.js'></script>
   <script src='parallax.js'></script>
+  <script type="text/javascript" src="instafeed.min.js"></script>
+  <script src='insta.js'></script>
     
   <link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style/uvm_style.css">

@@ -1,20 +1,7 @@
 <!doctype html>
 <!-- Head Section -->
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>UVM Cycling Media</title>
-  <meta name="description" content="University of Vermont Cycling Team Offial Site">
-  <meta name="author" content="UVM Cycling">
-
-  <link rel="stylesheet" href="style/uvm_style.css">
-  <link rel="stylesheet" href="Webfonts/metallord_regular_macroman/stylesheet.css">
-
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
+<?php include("head.php")?>
 <!-- End Head Section -->
 
 <!-- Start Body Section -->
@@ -27,11 +14,8 @@
 <!-- Start Main Content Section -->
 <div class="main-content">
     <div class="media-wrap">
-        <h1>Get at us.</h1>
-        <div id="tag-wrap">
-            <p>Facebook</p>
-            <p>Instagram</p>
-            <p>Twitter</p>
+        <h1>Hi There.</h1>
+        <div id="instafeed">
         </div>
     </div>
 </div>   

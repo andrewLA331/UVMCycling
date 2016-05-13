@@ -51,7 +51,7 @@ table {
 
 /*End CSS reset*/
 
-
+body{background-color:#FFFEE0;}
 /*Header and Footer Styling*/
 header {
     height: 50px;
@@ -66,6 +66,7 @@ header {
     -webkit-transform: skewX(45deg); /* Safari */
     transform: skewX(45deg); /* Standard syntax */
     border-left: 1px solid #eaea18;
+    
     border-bottom: 1px solid #eaea18;
 }
 
@@ -100,6 +101,10 @@ nav {
     -ms-transform: skewX(-45deg);
     -webkit-transform: skewX(-45deg);
     transform: skewX(-45deg);
+}
+
+nav ol {
+    letter-spacing: 1.5px;
 }
 
 footer {
@@ -216,7 +221,6 @@ div#description {
     transform: skewX(-30deg);
     margin-top: 15px;
     margin-bottom: 15px;
-    font-family: sans-serif;
     font-size: 14px;
     color:#FFFEE0;
 }
@@ -479,6 +483,10 @@ span.fc-time {
     border: 0px!important;
     background-color: #D2CBCB;
     color: #0A800A;
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    
 }
 
 .fc th {
@@ -729,6 +737,7 @@ div#contact {
 body#uvmAbout h2 {
     font-size: 24px;
     font-family: "metal_lordregular";
+    margin-bottom: 10px;
 }
 
 .buffer {
@@ -757,6 +766,24 @@ span#a-after {
 
 body#uvmAbout #sub-footer {
     margin-bottom: -50px;
+}
+
+input[type="text"] {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type="text"]:first-of-type {
+    margin-left: 25px;
+}
+
+input[type="text"]:last-of-type {
+    margin-left: 33px;
+}
+
+textarea {
+    margin-top: 11px;
 }
 /*End About Page Styling*/
 
@@ -813,3 +840,63 @@ body#uvmReports .rep {
 }
 
 /*End reports page styling*/
+
+/*Start Roster Styling*/
+.roster img {
+    height: 175px;
+    float: left;
+}
+
+.roster-wrap h1 {font-family: "metal_lordregular";font-size: 48px;}
+
+.roster h4 {
+    font-size: 20px;
+    font-family: "metal_lordregular";
+    margin-top: 10px;
+    color: green;
+}
+
+.roster ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.roster {
+    width: 400px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 20px #ccc;
+    transition: 300ms ease-in-out;
+    text-align: left;
+    border-radius:5px;
+}
+
+.roster ul {
+    padding-top: 10px;
+}
+
+body#uvmRoster .h1-wrap {
+    margin: 0px;
+    text-align: right;
+}
+
+.roster-wrap {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.roster:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 2px 20px #777;
+}
+
+body#uvmRoster .main-content {
+    padding-top: 75px;
+}
+/*End Roster styling*/
+

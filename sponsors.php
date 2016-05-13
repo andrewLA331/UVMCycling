@@ -28,17 +28,16 @@
     </li>
             <li><img src="images/sponsors/3Tweb.png"><div class="sponsor-d"><h2>3T</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
     </li>
-            <li><img src="images/sponsors/vittoriaWeb.png"><div class="sponsor-d"><h2>Vittoria</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p></div>
+            <li><img src="images/sponsors/VittoriaWebRed.png"><div class="sponsor-d"><h2>Vittoria</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p></div>
     </li>
            <!--  <li><img src="images/sponsors/untapped_logo_nav.png"></li>
             <li><img src="images/sponsors/untapped_logo_nav.png"></li> -->
         </ul>
     </div>
 
-    <div class="sponsor-d"><h2>Untapped</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
     
 </div>
-</div>   
+
 <!-- End Main Content Section -->
 <!-- Start Footer Section -->   
 <?php include("footer.php")?>
